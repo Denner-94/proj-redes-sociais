@@ -3,7 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
-   
+    box-sizing: border-box;
 }
 
 html,body{
@@ -31,6 +31,28 @@ section#telefone{
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-    
+}
+iframe#tela{
+    position: relative;
+    left: 23px;
+    top: 81px;
+    height: 470px;
+    width: 266px;
 
+}
+#redes{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 30px;
+}
+#redes img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 20px cornsilk;
+}
+#redes  img:hover{
+    border: 1px solid white;
+    transform: translate(-50px, -50px);
+    transition:transform(1) ;
 }
