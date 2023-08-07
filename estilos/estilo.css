@@ -52,7 +52,7 @@ iframe#tela{
     box-shadow: 1px 5px 20px cornsilk;
 }
 #redes  img:hover{
-    border: 1px solid white;
-    transform: translate(-50px, -50px);
-    transition:transform(1) ;
+    border: 3cap solid white;
+    transform: translate(-10px);
+    transition:transform(0.5);
 }
